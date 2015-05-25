@@ -9,11 +9,11 @@ $stable:                          #f8f8f8 !default;
 $positive:                        #387ef5 !default;
 $calm:                            #11c1f3 !default;
 $balanced:                        #33cd5f !default;
-$energized:                       #ffc900 !default;
+$energized:                       #fcce30 !default;
 $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
-$dark:                            #444 !default;
-*/
+$dark:                            #202020 !default;
+*/ 
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
@@ -21,3 +21,80 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+/** Map **/
+.map {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/** Map height on window resize fix **/
+.scroll {
+    height: 100%;
+}
+
+
+.bar.bar-stable {
+	background: #151515;
+	border-color: #151515;
+	
+	}
+
+.title.title-center.header-item {
+	color: $energized;
+ }
+
+ button:before {
+  color: $light;
+}
+
+
+.content.stable {
+  background-color: $energized;
+}
+.item {
+	margin-left: 0px;
+	margin-right: 0px;
+
+} 
+.item-content {
+	background-color: #202020 !important;
+	color: white !important;
+	font-size: 12px;
+    padding: 20px !important;
+} 
+ 
+
+
+ .dark {
+  background-color: #0D0D0D !important;
+  color: #ffffff;
+}
+ 
+.list {
+	background-color: #202020 !important;
+	  color: #ffffff;
+}
+.item {
+	background-color: #202020 !important;
+	color: #ffffff;
+	border-color: #404040;
+}
+
+input {
+	color: #ffffff !important;
+}
+
+ *::-webkit-input-placeholder {
+  color: #ffffff !important;
+}
+*:-moz-placeholder {
+  color: #ffffff !important;
+}
+*:-ms-input-placeholder { /* IE10+ */
+  color: #ffffff !important;
+}
+
+.input-label {
+	color: $energized;
+}

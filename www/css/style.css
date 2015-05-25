@@ -11,3 +11,8 @@
 .scroll {
     height: 100%;
 }
+
+.item {
+	margin-left: 0px;
+	margin-right: 0px;
+} 

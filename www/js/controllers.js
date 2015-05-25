@@ -37,7 +37,7 @@ angular.module('starter.controllers', ['starter.directives', 'starter.services',
 
   //настройки положения карты
   $scope.ymap = {
-    center: [32.059722,49.444444], zoom: 15
+    center: [43.315063,45.696383], zoom: 17
   };
 
   $scope.centerOnMe = function() {
@@ -155,7 +155,7 @@ angular.module('starter.controllers', ['starter.directives', 'starter.services',
         success(function(data, status, headers, config) {
           alert('Письмо успешно отправлено.');
         }).error(function(data, status, headers, config) {
-          alert('Опшибка при отправке письма.');
+          alert('Ошибка при отправке письма.');
         });
   };
 
